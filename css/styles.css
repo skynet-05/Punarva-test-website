@@ -19,9 +19,9 @@ body{
     font-weight:900;
     color: #ffffff;
     position: absolute;
-    top: 0.5rem;
-    left: 0.5rem;
-    transform: translate(-0.95rem, -0.95rem);
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -75%);
     /* position: absolute;
     top: 15rem;
     right: 55rem; */
@@ -29,9 +29,9 @@ body{
 .sec1button{
     position: absolute;
     padding: 5% 10%;
-    top: 0.7rem;
-    left: 0.5rem;
-    transform: translate(-0.5rem, -0.5rem);
+    top: 50%;
+    left: 50%;
+    transform: translate(-95%, -2%);
      /* bottom: 9.375rem;
      left: 37.5rem; */
  }
@@ -39,13 +39,19 @@ body{
 /* ------------------------------ */
 
 .section2{
+    background-image: url("/images/image3.jpg");
+  background-size: 100% 100%;
     background-repeat: no-repeat;
     /* background-position: 140%; */
-     position: relative;
     padding: 12% 15%;
     background-attachment: scroll;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    height: auto;
+    /*top: 0.5rem;
+    left: 0.5rem;
+    transform: translate(-0.75rem, -0.75rem); */
+    /* margin-left: auto;
+    margin-right: auto; */
     
 }
 #hightext2{
@@ -56,23 +62,31 @@ body{
 }
 .sec2button{
     position: relative;
-    /* bottom: 9.375rem;
-    left: 37.5rem; */
+    bottom: 9.375rem;
+    left: 47.5rem;
 }
 
 
 .section3{
+    background-image: url("/images/image4.jpg");
+  background-size: 100% 100%;
     background-repeat: no-repeat;
     /* background-position: 140%; */
     padding: 12% 15%;
     background-attachment: scroll;
+    position: relative;
+    height: auto;
     
 }
 #hightext3{
     font-family:"Montserrat";
     font-size:3.5rem;
     font-weight:600;
+    text-align: right;
     color: #ffffff;
+    position: relative;
+    bottom: 3.375rem;
+    left: 47.5rem;
 }
 .sec3button{
     position: relative;
@@ -82,10 +96,17 @@ body{
 
 
 .section4{
+    background-image: url("/images/image6.jpg");
+  background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     /* background-position: 140%; */
+    max-width: 600px;
     padding: 12% 15%;
+    margin-bottom: 12%;
+    position: relative;
+    left: 343px;
+    height: 691px;
     background-attachment: scroll;
     
 }
@@ -94,11 +115,14 @@ body{
     font-size:3.5rem;
     font-weight:600;
     color: #000000;
+    position: relative;
+    bottom: 3.375rem;
+    right: 20.5rem;
 }
 .sec4button{
     position: relative;
-    /* bottom: 9.375rem;
-    left: 37.5rem; */
+    top: 9.375rem;
+    right: 17.5rem;
 }
 
 .BUTTON_SOP {
@@ -127,7 +151,7 @@ body{
     background-image: -moz-linear-gradient(top, #898A8B, #4B4D50);
     background-image: -ms-linear-gradient(top, #898A8B, #4B4D50);
     background-image: -o-linear-gradient(top, #898A8B, #4B4D50);
-    background-image: -webkit-gradient(to bottom, #898A8B, #4B4D50);
+    background-image: -webkit-linear-gradient(to bottom, #898A8B, #4B4D50);
     -webkit-border-radius: 44px;
     -moz-border-radius: 44px;
     border-radius: 44px;
